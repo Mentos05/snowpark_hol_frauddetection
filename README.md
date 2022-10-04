@@ -1,8 +1,18 @@
 # Snowpark Handson-Lab (HOL) for Fraud Detection
 This repository contains resources to get first handson experience with Snowpark.
 
+### Dataset
 The dataset was taken from:<br>
 https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+
+### Task
+Build a machine learning model to predict if an applicant is 'good' or 'bad' client, different from other tasks, the definition of 'good' or 'bad' is not given but must be defined by you.
+
+### What you'll learn
+* Loading and transforming data via Snowpark
+* Defining Stored Procedures for non-SQL-based Data Transformations
+* Defining Stored Procedures for training different machine learning models
+* Defining User Defined Functions for distributed scoring of machine learning models
 
 ### Requirements
 * Docker installed
