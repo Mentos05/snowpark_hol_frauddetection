@@ -15,8 +15,8 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 * Defining User Defined Functions for distributed scoring of machine learning models
 
 ### Requirements
-* Docker installed
-* Snowflake Account
+* [Docker installed](https://www.docker.com/)
+* [Snowflake Account](https://signup.snowflake.com/)
 
 ### Setup
 1. Pull this repository<br>
