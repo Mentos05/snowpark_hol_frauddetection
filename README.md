@@ -36,4 +36,9 @@ docker run -v ${PWD}:/snowpark_dev --rm -p 9998:9998 -p 8501:8501 -ti pysnowpark
 ```
 http://localhost:9998
 ```
-5. Run through the notebooks.
+5. Run through the notebooks.<br>
+
+Alternatively you can try pulling the docker container via:<br>
+```
+docker pull michaelgorkowsnowflake/pysnowpark_hol:latest
+```
