@@ -1,6 +1,9 @@
 # Snowpark Handson-Lab (HOL) for Fraud Detection
 This repository contains resources to get first handson experience with Snowpark.
 
+The dataset was taken from:
+https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+
 ### Requirements
 * Docker installed
 * Snowflake Account
