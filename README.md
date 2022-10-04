@@ -13,6 +13,7 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 * Defining Stored Procedures for non-SQL-based Data Transformations
 * Defining Stored Procedures for training different machine learning models
 * Defining User Defined Functions for distributed scoring of machine learning models
+* Using hyper paratemer tuning in Stored Procedures
 
 ### Requirements
 * [Docker](https://www.docker.com/)
