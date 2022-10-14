@@ -29,6 +29,10 @@ cd snowpark_hol_frauddetection
 ```
 docker build -t pysnowpark_hol michaelgorkowsnowflake/pysnowpark_hol:latest
 ```
+Alternatively you can try pulling the docker container via:<br>
+```
+docker pull michaelgorkowsnowflake/pysnowpark_hol:latest
+```
 3. Run your container with 
 ```
 docker run -v ${PWD}:/snowpark_dev --rm -p 9998:9998 -ti michaelgorkowsnowflake/pysnowpark_hol:latest
@@ -38,8 +42,3 @@ docker run -v ${PWD}:/snowpark_dev --rm -p 9998:9998 -ti michaelgorkowsnowflake/
 http://localhost:9998
 ```
 5. Run through the notebooks.<br>
-
-Alternatively you can try pulling the docker container via:<br>
-```
-docker pull michaelgorkowsnowflake/pysnowpark_hol:latest
-```
