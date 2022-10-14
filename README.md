@@ -27,11 +27,11 @@ cd snowpark_hol_frauddetection
 ```
 2. Build your own Docker container containing Snowpark and other 3rd Party packages:
 ```
-docker build -t pysnowpark_hol snowpark_container/.
+docker build -t pysnowpark_hol michaelgorkowsnowflake/pysnowpark_hol:latest
 ```
 3. Run your container with 
 ```
-docker run -v ${PWD}:/snowpark_dev --rm -p 9998:9998 -p 8501:8501 -ti pysnowpark_hol
+docker run -v ${PWD}:/snowpark_dev --rm -p 9998:9998 -ti michaelgorkowsnowflake/pysnowpark_hol:latest
 ```
 4. Access Jupyter Lab via: 
 ```
