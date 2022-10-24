@@ -1,8 +1,7 @@
-# Snowpark Handson-Lab (HOL) for Fraud Detection
+# Snowpark Handson-Lab (HOL) for Credit Card Approval Prediction
 This repository contains resources to get first handson experience with Snowpark.
 
 ### Use-Case: Credit Card Approval Prediction
-
 You are part of a team of data engineers and data scientists at a banking company that has been tasked to identify high-risk customers using a machine learning based solution. The goal is to give a recommendation to either approve or reject the issueing of a credit card.
 
 To build this, you have access to customer demographic and credit history data. Using Snowpark, we will ingest, analyze and transform this data to train a model that will then be deployed inside Snowflake to score new data.
