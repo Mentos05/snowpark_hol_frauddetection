@@ -1,4 +1,4 @@
-# Snowpark Handson-Lab (HOL) for Credit Card Approval Prediction
+# Snowpark Handson-Lab for Credit Card Approval Prediction
 This repository contains resources to get first handson experience with Snowpark.
 
 ### Use-Case: Credit Card Approval Prediction
