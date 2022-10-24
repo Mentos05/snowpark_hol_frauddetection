@@ -2,7 +2,6 @@
 This repository contains resources to get first handson experience with Snowpark.
 
 ### Use-Case: Credit Card Approval Prediction
-Duration: 3
 
 You are part of a team of data engineers and data scientists at a banking company that has been tasked to identify high-risk customers using a machine learning based solution. The goal is to give a recommendation to either approve or reject the issueing of a credit card.
 
