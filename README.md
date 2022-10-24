@@ -16,29 +16,40 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 * Using hyper paratemer tuning in Stored Procedures
 
 ### Requirements
-* [Docker](https://www.docker.com/)
-* [Snowflake Account](https://signup.snowflake.com/)
+- A free [Snowflake Trial Account](https://signup.snowflake.com/) 
+- [Anaconda Integration enabled by ORGADMIN](https://docs.snowflake.com/en/developer-guide/udf/python)
+- Python 3.8
 
 ### Setup
-1. Pull this repository<br>
-```
-git clone https://github.com/Mentos05/snowpark_hol_frauddetection.git
+First, clone the source code for this repo to your local environment:
+```bash
+git clone https://github.com/michaelgorkow/snowpark_hol_frauddetection.git
 cd snowpark_hol_frauddetection
 ```
-2. Build your own Docker container containing Snowpark and other 3rd Party packages:
+
+If you are using [Anaconda](https://www.anaconda.com/products/distribution) on your local machine, create a conda env for this quickstart:
+```bash
+conda env create -f conda_env.yml
+conda activate pysnowpark
 ```
-docker build -t pysnowpark_hol michaelgorkowsnowflake/pysnowpark_hol:latest
+
+Conda will automatically install `snowflake-snowpark-python==0.10.0` and all other dependencies for you.
+
+Now, launch Jupyter Notebook on your local machine:
+```bash
+jupyter notebook
 ```
-Alternatively you can try pulling the docker container via:<br>
-```
-docker pull michaelgorkowsnowflake/pysnowpark_hol:latest
-```
-3. Run your container with 
-```
-docker run -v ${PWD}:/snowpark_dev --rm -p 9998:9998 -ti michaelgorkowsnowflake/pysnowpark_hol:latest
-```
-4. Access Jupyter Lab via: 
-```
-http://localhost:9998
-```
-5. Run through the notebooks.<br>
+
+If you decide to bring your own Python environment, please make sure to have the following packages installed:
+- [Snowpark](https://pypi.org/project/snowflake-snowpark-python/)
+- [Pandas](https://pypi.org/project/snowflake-snowpark-python/)
+- [NumPy](https://pypi.org/project/numpy/)
+- [scikit-learn](https://pypi.org/project/scikit-learn/)
+- [LightGBM](https://pypi.org/project/lightgbm/)
+- [XGBoost](https://pypi.org/project/xgboost/)
+- [SciPy](https://pypi.org/project/scipy/)
+- [Seaborn](https://pypi.org/project/seaborn/)
+- [cloudpickle](https://pypi.org/project/cloudpickle/)
+- [cachetools](https://pypi.org/project/cachetools/)
+- [imbalanced-learn](https://pypi.org/project/imbalanced-learn/)
+- [optuna](https://pypi.org/project/optuna/)
