@@ -1,12 +1,15 @@
 # Snowpark Handson-Lab (HOL) for Fraud Detection
 This repository contains resources to get first handson experience with Snowpark.
 
-### Dataset
-The dataset was taken from:<br>
-https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+## Use-Case: Credit Card Approval Prediction
+Duration: 3
 
-### Task
-Build a machine learning model to predict if an applicant is 'good' or 'bad' client, different from other tasks, the definition of 'good' or 'bad' is not given but must be defined by you.
+You are part of a team of data engineers and data scientists at a banking company that has been tasked to identify high-risk customers using a machine learning based solution. The goal is to give a recommendation to either approve or reject the issueing of a credit card.
+
+To build this, you have access to customer demographic and credit history data. Using Snowpark, we will ingest, analyze and transform this data to train a model that will then be deployed inside Snowflake to score new data.
+
+The dataset you are using is part of a Kaggle competition that can be found here:\
+[Kaggle: Credit Card Approval Prediction](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
 
 ### What you'll learn
 * Loading and transforming data via Snowpark
@@ -14,6 +17,12 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 * Defining Stored Procedures for training different machine learning models
 * Defining User Defined Functions for distributed scoring of machine learning models
 * Using hyper paratemer tuning in Stored Procedures
+
+### What you’ll build 
+You will build an end-to-end data science workflow leveraging Snowpark for Python
+- to load, clean and prepare data
+- to train different machine learning models using Python Stored Procedures
+- to deploy the trained models in Snowflake using Python User Defined Functions (UDFs)
 
 ### Requirements
 - A free [Snowflake Trial Account](https://signup.snowflake.com/) 
